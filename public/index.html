@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="nav-template.css">
+    <!-- JQUERY -->
+    <!--<script src="https://code.jquery.com/jquery-3.6.0.js"></script> -->
+
+    <title>Template</title>
+    <style>
+        /* Optional: Add custom styles for the optional note */
+        .optional {
+            color: #888;
+            font-size: 80%;
+            margin-left: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- <img src="" alt="LOGO" class="logo"> -->
+        <div class="logo"><span id="logo">Logo</span></div>
+        <ul class="nav_links">
+            <li>
+                <a href=""><img src="icons/l_angle.svg" alt=""></a>
+            </li>
+            <li>
+                <a href=""><img src="icons/r_angle.svg" alt=""></a>
+            </li>
+            <li class="search-wrap">
+                <div class="search">
+                    <button type="submit" class="searchButton">
+                        <!-- <i class="fa fa-search"></i> -->
+                        <img src="icons/Search.svg" class="search-img" alt="">
+                    </button>
+                    <input type="text" class="searchTerm" placeholder="Search">
+
+                </div>
+            </li>
+            <li><a href="">
+                    <img src="icons/Group 9354.svg" alt="" class="header-icons"> Add</a>
+            </li>
+            <li><a href=""><img src="icons/Notification.svg" alt="" class="notif-icon"></a></li>
+            <li><a href="">
+                    <img src="icons/Group 9672.svg" alt="" class="notif-icon">
+                </a></li>
+            <li><a href="#" class="logout">
+                    <img src="icons/Group 9679.svg" alt="" class="header-icons">
+                    Logout</a></li>
+        </ul>
+    </header>
+    <div class="nav_links_vertical">
+        <ul class="side-nav">
+            <li><a href="#"><img id="icons-push" src="icons/noun_Home_82867.svg" alt=""><span class="nav-text">Home</span></a></li>
+            <li><a href="#"><img id="icons-push" src="icons/Page 1.svg" alt=""><span class="nav-text">Project</span></a></li>
+            <li><a href="#"><img id="icons-push" src="icons/noun_tick_1611495.svg" alt=""><span class="nav-text">Task</span></a></li>
+            <li><a href="#"><img id="icons-push" src="icons/noun_chat_3917121.svg" alt=""><span class="nav-text">Chat</span></a></li>
+            <li><a href="#"><img id="icons-push" src="icons/Calendar.svg" alt=""><span class="nav-text">Apply for Leave</span></a></li>
+            <li><a href="#"><img id="icons-push" class="big-icon" src="Side-Nav/Group 9683.svg" alt=""><span class="nav-text">Attendance Record</span></a></li>
+            <li><a href="#"><img id="icons-push" src="icons/noun_folder folder_3218908.svg" alt=""><span class="nav-text">File Organisation</span></a></li>
+            <li><a href="#"><img id="icons-push" class="big-icon" src="Side-Nav/noun_add group_2977042.svg" alt=""><span class="nav-text">People (invite)</span></a></li>
+            <li><a href="#"><img id="icons-push" class="big-icon" src="Side-Nav/Group 9683.svg" alt=""><span class="nav-text">Job Application</span></a></li>
+        </ul>
+    </div>
+    
+    
+    <main>
+    
+        <!-- Existing content here -->
+
+        <!-- New Section for Enhanced Job Application Form -->
+        <section>
+            <h3>Job Application Form</h3>
+            <form  id="applicationForm" onsubmit="submitForm(event)">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="resume">Resume (PDF):</label>
+                <input type="file" id="resume" name="resume" accept=".pdf" required>
+                
+                <label for="coverletter">Cover Letter (PDF) <span class="optional">(Optional)</span>:</label>
+                <input type="file" id="coverletter" name="coverletter" accept=".pdf">
+
+                <label for="experience">Work Experience:</label>
+                <textarea id="experience" name="experience" required></textarea>
+
+                <label for="position">Applying for Position:</label>
+                <input type="text" id="position" name="position" required>
+
+                <button class=" submit" type="submit">Submit Application</button>
+            </form>
+        </section>
+    </main>
+
+    <script>
+        function submitForm(event) {
+            event.preventDefault(); // Prevent the default form submission
+            const form = document.getElementById('applicationForm');
+            const formData = new FormData(form);
+    
+            fetch('/submit', {
+                method: 'POST',
+                body: formData
+            })
+                .then(response => response.text())
+                .then(message => {
+                    alert(message); // Display the server response in an alert
+                    // You can redirect or perform additional actions as needed
+                })
+                .catch(error => {
+                    console.error(error);
+                    alert('Error submitting the form. Please try again.'); // Display an error message
+                });
+        }
+    </script>
+    
+    
+</body>
+
+</html>

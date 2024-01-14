@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="28" viewBox="0 0 21 28">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#647dee"/>
+      <stop offset="1" stop-color="#7f53ac"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_9682" data-name="Group 9682" transform="translate(-23 -242)">
+    <g id="noun_menu_list_637797" data-name="noun_menu list_637797" transform="translate(6 163.6)">
+      <g id="Group_9670" data-name="Group 9670" transform="translate(17 78.4)">
+        <path id="Path_12501" data-name="Path 12501" d="M18.591,958.362A1.594,1.594,0,0,0,17,959.953v24.818a1.6,1.6,0,0,0,1.591,1.591H36.409A1.6,1.6,0,0,0,38,984.771V959.953a1.594,1.594,0,0,0-1.591-1.591Zm-.358,7.184Zm2.9-2.093a.318.318,0,1,0,0,.636l13.046,2.19a11.93,11.93,0,0,0,0-2.508.318.318,0,0,0-.318-.318Zm0,5.727a.318.318,0,0,0-.318.318C20.818,969.674,34.039,969.18,21.136,969.18Zm0,5.727a.318.318,0,1,0,0,.636H33.864a.318.318,0,1,0,0-.636Zm12.727,6.364a.318.318,0,0,0,0-.636S20.961,981.271,33.864,981.271Z" transform="translate(-17 -958.362)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g id="Group_9681" data-name="Group 9681">
+      <g id="Rectangle_3048" data-name="Rectangle 3048" transform="translate(27 264)" fill="#fff" stroke="#fff" stroke-width="1">
+        <rect width="14" height="1.2" rx="0.6" stroke="none"/>
+        <rect x="0.5" y="0.5" width="13" height="0.2" rx="0.1" fill="none"/>
+      </g>
+      <g id="Rectangle_3049" data-name="Rectangle 3049" transform="translate(27 260)" fill="#fff" stroke="#fff" stroke-width="1">
+        <rect width="14" height="1.2" rx="0.6" stroke="none"/>
+        <rect x="0.5" y="0.5" width="13" height="0.2" rx="0.1" fill="none"/>
+      </g>
+      <g id="Rectangle_3050" data-name="Rectangle 3050" transform="translate(27 256)" fill="#fff" stroke="#fff" stroke-width="1">
+        <rect width="14" height="1.2" rx="0.6" stroke="none"/>
+        <rect x="0.5" y="0.5" width="13" height="0.2" rx="0.1" fill="none"/>
+      </g>
+      <g id="Rectangle_3052" data-name="Rectangle 3052" transform="translate(27 252)" fill="#fff" stroke="#fff" stroke-width="1">
+        <rect width="14" height="1.2" rx="0.6" stroke="none"/>
+        <rect x="0.5" y="0.5" width="13" height="0.2" rx="0.1" fill="none"/>
+      </g>
+      <g id="Rectangle_3053" data-name="Rectangle 3053" transform="translate(27 248)" fill="#fff" stroke="#fff" stroke-width="1">
+        <rect width="14" height="1.2" rx="0.6" stroke="none"/>
+        <rect x="0.5" y="0.5" width="13" height="0.2" rx="0.1" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

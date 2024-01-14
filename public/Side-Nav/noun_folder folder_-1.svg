@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29.001" height="24.453" viewBox="0 0 29.001 24.453">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#647dee"/>
+      <stop offset="1" stop-color="#7f53ac"/>
+    </linearGradient>
+  </defs>
+  <g id="noun_folder_folder_3218908" data-name="noun_folder folder_3218908" transform="translate(-255.999 22.037)">
+    <g id="Layer_7" data-name="Layer 7" transform="translate(253.84 -27.622)">
+      <path id="Path_12502" data-name="Path 12502" d="M28.112,9.037H15.626l-2.7-3.216a.665.665,0,0,0-.508-.237H2.823a.664.664,0,0,0-.664.664V26.989a3.051,3.051,0,0,0,3.048,3.048H28.112a3.051,3.051,0,0,0,3.048-3.048v-14.9A3.051,3.051,0,0,0,28.112,9.037ZM3.487,6.912H12.1l1.788,2.125H3.487Zm8.617,21.8c0,.95,16.958,0,16.009,0-23.855,0-24.624-.771-24.625-1.72L5.207,23.7l10.419-10.72C16.576,12.985-12.523,29.48,12.1,28.709Z" transform="translate(0)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

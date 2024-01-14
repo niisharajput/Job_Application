@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27.599" height="30.457" viewBox="0 0 27.599 30.457">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fe9090"/>
+      <stop offset="1" stop-color="#f46b6b"/>
+    </radialGradient>
+  </defs>
+  <g id="noun_logout_3324829" transform="translate(-281.001 25.033)">
+    <g id="Group_9679" data-name="Group 9679" transform="translate(281.001 -25.033)">
+      <path id="Path_12510" data-name="Path 12510" d="M39.676,26.625A13.8,13.8,0,1,1,20.689,13.872a1.385,1.385,0,0,1,1.039,2.563,11.028,11.028,0,1,0,8.312,0,1.385,1.385,0,1,1,1.039-2.563,13.715,13.715,0,0,1,8.6,12.752Zm-13.8-.9a1.385,1.385,0,0,0,1.385-1.385V11.385a1.385,1.385,0,1,0-2.771,0V24.339A1.385,1.385,0,0,0,25.877,25.724Z" transform="translate(-12.077 -10)" fill="url(#radial-gradient)"/>
+    </g>
+  </g>
+</svg>
